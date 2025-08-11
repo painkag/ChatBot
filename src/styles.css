@@ -18,3 +18,11 @@ body { font-family: Inter, system-ui, Arial; background:var(--bg); margin:0; col
 .msg.assistant .bubble { background:#eef2ff; color:#03132a; }
 .composer { display:flex; padding:12px; gap:8px; border-top:1px solid #eef2f7; }
 .empty { color:#6b7280; text-align:center; margin-top:10px; }
+
+@media (min-width: 768px) {
+  .chat-wrapper {
+    margin-left: 510px; /* empurra para a direita */
+    margin-right: auto; /* mantém alinhado à esquerda */
+  }
+}
+
