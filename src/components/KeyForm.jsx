@@ -8,7 +8,10 @@ export default function KeyForm({ onSave }) {
       <h2>Insira sua OpenAI API Key</h2>
       <p>
         Insira uma chave começando com <code>sk-</code>. Essa chave ficará salva no
-        navegador (localStorage).
+        navegador (localStorage).{' '}
+        <a href="https://platform.openai.com/account/api-keys" target="_blank" rel="noopener noreferrer">
+          Clique aqui para criar sua chave na OpenAI
+        </a>.
       </p>
 
       <input
